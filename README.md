@@ -16,15 +16,15 @@ Fictional company Waves and Ice Cream wants to analyze weather data using SQLite
 - ### June and December Temperature Findings
 Using Python, Pandas , and SQLAlchemy, the date column of the Measurements table was filtered in the hawaii.sqlite database to retrieve all the temperatures for the months of June and December. Those temperatures were converted to a list, a DataFrame was created from those lists, and then summary statistics were generated for each dataset. After conducting the analysis, we gather the following statistics for the months of June and December.
 
-June had a min of 64.00, max of 85.0 and a mean of 74.9.
+June temperature had a min of 64.00, max of 85.0 and a mean of 74.9.
 
 <img width="146" alt="Screen Shot 2021-12-15 at 9 46 23 AM" src="https://user-images.githubusercontent.com/92277581/146618502-bd87bd03-cc15-4289-b710-e9c83e60dff9.png">
 
-December had a min of 56.00, max of 83.0 and a mean of 71.0.
+December temperature had a min of 56.00, max of 83.0 and a mean of 71.0.
 
 <img width="167" alt="Screen Shot 2021-12-15 at 9 47 30 AM" src="https://user-images.githubusercontent.com/92277581/146618524-19ac6bc0-349c-4750-b653-17c30854f409.png">
 
-The difference in the standard deviation between June and December was only 0.49 since the standard deviation for June is "3.25" and "3.74" in December, showing there is not a significant difference in the two months.
+The difference in the standard deviation between June and December temperature was only 0.49 since the standard deviation for June is "3.25" and "3.74" in December, showing there is not a significant difference in the two months.
 
 - ## Additional Analysis
 ### June and December Precipitation Findings
